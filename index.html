@@ -1,0 +1,403 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0b1120" />
+  <meta name="description" content="Portfolio d'Andy ILBOUDO, étudiant en cycle préparatoire en génie civil. Découvrez son parcours, ses compétences et ses projets." />
+
+  <title>Andy ILBOUDO | Futur ingénieur en génie civil</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <header class="header" id="header">
+    <nav class="nav container" aria-label="Navigation principale">
+      <a href="#accueil" class="logo">
+        <span class="logo-mark">A<span>.</span>I</span>
+        <span class="logo-caption">PORTFOLIO / 2026</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle"
+        aria-label="Ouvrir le menu" aria-expanded="false"
+        aria-controls="navLinks">
+        <span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#accueil" class="nav-link active">Accueil</a>
+        <a href="#apropos" class="nav-link">À propos</a>
+        <a href="#competences" class="nav-link">Compétences</a>
+        <a href="#projets" class="nav-link">Projets</a>
+        <a href="#contact" class="nav-link nav-contact">Me contacter ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ACCUEIL -->
+    <section class="hero container" id="accueil">
+      <div class="hero-grid"></div>
+      <div class="hero-content">
+        <div class="availability reveal">
+          <span class="status-dot"></span>
+          ÉTUDIANT EN CYCLE PRÉPARATOIRE
+        </div>
+
+        <p class="eyebrow reveal">GÉNIE CIVIL · INGÉNIERIE · CONCEPTION</p>
+
+        <h1 class="hero-title reveal">
+          Bâtir aujourd'hui.<br />
+          <span class="gradient-text">Imaginer demain.</span>
+        </h1>
+
+        <p class="hero-description reveal">
+          Je suis <strong>Andy ILBOUDO</strong>, étudiant en première année
+          de cycle préparatoire en génie civil. Je développe mes compétences
+          scientifiques et techniques pour contribuer aux infrastructures
+          de demain.
+        </p>
+
+        <div class="hero-actions reveal">
+          <a href="#projets" class="btn btn-primary">
+            Découvrir mon univers <span>↗</span>
+          </a>
+          <a href="#apropos" class="btn btn-secondary">
+            En savoir plus <span>↓</span>
+          </a>
+        </div>
+
+        <div class="hero-socials reveal">
+          <a href="https://www.linkedin.com/in/andy-ilboudo-1b8931442/"
+             target="_blank" rel="noopener noreferrer">
+            LinkedIn ↗
+          </a>
+          <span class="social-divider"></span>
+          <span>Portfolio personnel</span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" aria-label="Illustration technique architecturale">
+        <div class="visual-label label-top">FIG. 001 — STRUCTURE</div>
+
+        <div class="blueprint">
+          <div class="blueprint-ring ring-one"></div>
+          <div class="blueprint-ring ring-two"></div>
+          <div class="blueprint-cross cross-one"></div>
+          <div class="blueprint-cross cross-two"></div>
+
+          <svg class="structure-svg" viewBox="0 0 340 420"
+            role="img" aria-label="Illustration stylisée d'une structure de bâtiment">
+            <g fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M65 335 L65 135 L170 75 L275 135 L275 335 Z"/>
+              <path d="M65 135 L170 195 L275 135"/>
+              <path d="M170 75 L170 195 L170 395"/>
+              <path d="M65 202 L170 262 L275 202"/>
+              <path d="M65 269 L170 329 L275 269"/>
+              <path d="M65 335 L170 395 L275 335"/>
+              <path d="M65 135 L170 75 L170 195 L65 135"/>
+              <path d="M170 195 L275 135 L275 335 L170 395"/>
+            </g>
+            <g fill="none" stroke="#f59e0b" stroke-width="2">
+              <path d="M65 202 L170 142 L275 202"/>
+              <path d="M65 269 L170 209 L275 269"/>
+              <path d="M170 75 L170 395" stroke-dasharray="4 7"/>
+            </g>
+            <g fill="#f59e0b">
+              <circle cx="170" cy="75" r="4"/>
+              <circle cx="65" cy="135" r="4"/>
+              <circle cx="275" cy="135" r="4"/>
+              <circle cx="170" cy="195" r="4"/>
+              <circle cx="170" cy="329" r="4"/>
+            </g>
+          </svg>
+
+          <div class="dimension dim-one">+ STRUCTURE</div>
+          <div class="dimension dim-two">X — Y — Z</div>
+        </div>
+
+        <div class="visual-label label-bottom">
+          CONCEVOIR <span>·</span> ANALYSER <span>·</span> CONSTRUIRE
+        </div>
+      </div>
+
+      <a class="scroll-cue" href="#apropos">
+        <span class="scroll-line"></span> DÉFILER POUR EXPLORER
+      </a>
+    </section>
+
+    <!-- BANDEAU -->
+    <div class="ticker" aria-label="Domaines d'intérêt">
+      <div class="ticker-track" aria-hidden="true">
+        <span>GÉNIE CIVIL</span><i>✳</i>
+        <span>STRUCTURES</span><i>✳</i>
+        <span>ARCHITECTURE</span><i>✳</i>
+        <span>INNOVATION</span><i>✳</i>
+        <span>GÉNIE CIVIL</span><i>✳</i>
+        <span>STRUCTURES</span><i>✳</i>
+        <span>ARCHITECTURE</span><i>✳</i>
+        <span>INNOVATION</span><i>✳</i>
+      </div>
+    </div>
+
+    <!-- À PROPOS -->
+    <section class="section container" id="apropos">
+      <div class="section-heading reveal">
+        <span class="section-index">01 / PROFIL</span>
+        <h2>Curieux par nature.<br /><span class="muted">Ingénieur en devenir.</span></h2>
+      </div>
+
+      <div class="about-layout">
+        <div class="about-card reveal">
+          <div class="about-monogram">A<span>.</span>I</div>
+          <div class="about-card-footer">
+            <span>ANDY ILBOUDO</span>
+            <span>ÉTUDIANT · GÉNIE CIVIL</span>
+          </div>
+        </div>
+
+        <div class="about-content reveal">
+          <p class="lead">
+            Chaque grande construction commence par une idée,
+            une méthode et une volonté d'apprendre.
+          </p>
+          <p class="body-copy">
+            Actuellement en première année de cycle préparatoire en génie civil,
+            je construis progressivement les bases scientifiques et techniques
+            nécessaires à mon futur métier d'ingénieur.
+          </p>
+          <p class="body-copy">
+            J'aime comprendre comment les structures fonctionnent, découvrir
+            les outils numériques de conception et développer ma capacité à
+            résoudre des problèmes avec rigueur, créativité et méthode.
+          </p>
+
+          <div class="about-facts">
+            <div>
+              <span class="fact-number">01</span>
+              <span class="fact-label">Apprendre en continu</span>
+            </div>
+            <div>
+              <span class="fact-number">02</span>
+              <span class="fact-label">Concevoir avec méthode</span>
+            </div>
+            <div>
+              <span class="fact-number">03</span>
+              <span class="fact-label">Construire avec ambition</span>
+            </div>
+          </div>
+
+          <a class="text-link"
+             href="https://www.linkedin.com/in/andy-ilboudo-1b8931442/"
+             target="_blank" rel="noopener noreferrer">
+            Retrouver mon profil LinkedIn <span>↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPÉTENCES -->
+    <section class="section skills-section" id="competences">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-index">02 / SAVOIR-FAIRE</span>
+          <h2>Des bases solides.<br /><span class="muted">Une progression constante.</span></h2>
+          <p class="section-intro">
+            Les compétences que je développe au fil de ma formation.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <span class="skill-number">01</span>
+            <div class="skill-icon">∑</div>
+            <h3>Sciences fondamentales</h3>
+            <p>Mathématiques, physique et raisonnement scientifique.</p>
+            <span class="skill-tag">FORMATION EN COURS</span>
+          </article>
+
+          <article class="skill-card reveal">
+            <span class="skill-number">02</span>
+            <div class="skill-icon">⌘</div>
+            <h3>Outils numériques</h3>
+            <p>Développement web et découverte des outils de conception technique.</p>
+            <span class="skill-tag">EN DÉVELOPPEMENT</span>
+          </article>
+
+          <article class="skill-card reveal">
+            <span class="skill-number">03</span>
+            <div class="skill-icon">△</div>
+            <h3>Conception & structures</h3>
+            <p>Découverte des principes de construction, de géométrie et de représentation.</p>
+            <span class="skill-tag">À APPROFONDIR</span>
+          </article>
+
+          <article class="skill-card reveal">
+            <span class="skill-number">04</span>
+            <div class="skill-icon">↗</div>
+            <h3>Compétences humaines</h3>
+            <p>Organisation, curiosité, autonomie et résolution de problèmes.</p>
+            <span class="skill-tag">EN PROGRESSION</span>
+          </article>
+        </div>
+
+        <p class="note">
+          Les compétences présentées reflètent des domaines d'apprentissage.
+          Ajoute uniquement les logiciels et savoir-faire que tu maîtrises réellement.
+        </p>
+      </div>
+    </section>
+
+    <!-- PROJETS -->
+    <section class="section container" id="projets">
+      <div class="section-heading reveal">
+        <span class="section-index">03 / RÉALISATIONS</span>
+        <h2>Apprendre en faisant.<br /><span class="muted">Progresser par les projets.</span></h2>
+        <p class="section-intro">
+          Des projets personnels et académiques pour transformer la théorie en pratique.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card project-featured reveal">
+          <div class="project-art art-blueprint">
+            <span class="art-tag">PROJET 001</span>
+            <svg viewBox="0 0 500 270" role="img" aria-label="Plan schématique d'un bâtiment">
+              <g fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M75 210 L75 90 L250 30 L425 90 L425 210 Z"/>
+                <path d="M75 90 L250 150 L425 90"/>
+                <path d="M250 30 L250 150 L250 240"/>
+                <path d="M75 150 L250 210 L425 150"/>
+                <path d="M120 74 L120 226 M165 59 L165 241 M335 59 L335 241 M380 74 L380 226"/>
+              </g>
+              <g stroke="#f59e0b" fill="none" stroke-width="2">
+                <path d="M40 230 H460 M55 235 V245 M445 235 V245"/>
+                <path d="M55 235 L65 230 M55 235 L65 240 M445 235 L435 230 M445 235 L435 240"/>
+              </g>
+            </svg>
+            <span class="art-caption">CONCEPTION / STRUCTURES</span>
+          </div>
+          <div class="project-info">
+            <div class="project-meta"><span>01</span><span>PERSONNEL</span></div>
+            <h3>Étude d'une structure</h3>
+            <p>Un futur projet pour explorer la géométrie, les plans et les principes fondamentaux d'une structure.</p>
+            <span class="project-status">À DÉVELOPPER</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-art art-grid">
+            <span class="art-tag">PROJET 002</span>
+            <div class="grid-model">
+              <div class="model-floor floor-a"></div>
+              <div class="model-floor floor-b"></div>
+              <div class="model-floor floor-c"></div>
+              <div class="model-pillar pillar-a"></div>
+              <div class="model-pillar pillar-b"></div>
+              <div class="model-pillar pillar-c"></div>
+            </div>
+            <span class="art-caption">MODÉLISATION / 3D</span>
+          </div>
+          <div class="project-info">
+            <div class="project-meta"><span>02</span><span>FORMATION</span></div>
+            <h3>Découverte de la modélisation</h3>
+            <p>Un espace pour documenter mes premiers essais de représentation numérique et de conception.</p>
+            <span class="project-status">À DÉVELOPPER</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-art art-orange">
+            <span class="art-tag">PROJET 003</span>
+            <div class="web-symbol">
+              <span>&lt;</span><span>/</span><span>&gt;</span>
+            </div>
+            <span class="art-caption">HTML / CSS / JAVASCRIPT</span>
+          </div>
+          <div class="project-info">
+            <div class="project-meta"><span>03</span><span>WEB</span></div>
+            <h3>Mon portfolio personnel</h3>
+            <p>Un site créé pour présenter mon parcours, mes apprentissages et mes futurs projets techniques.</p>
+            <span class="project-status">EN CONSTRUCTION</span>
+          </div>
+        </article>
+      </div>
+
+      <p class="note">
+        Les deux premiers projets sont des idées de projets à réaliser, pas des réalisations déjà terminées.
+        Remplace-les par tes travaux réels au fur et à mesure.
+      </p>
+    </section>
+
+    <!-- OBJECTIF -->
+    <section class="vision-section">
+      <div class="container vision-content reveal">
+        <span class="section-index">04 / MA VISION</span>
+        <p class="vision-quote">
+          « Les grandes infrastructures de demain se construisent
+          avec les connaissances que nous développons aujourd'hui. »
+        </p>
+        <p class="vision-caption">APPRENDRE · EXPÉRIMENTER · CONSTRUIRE</p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section container contact-section" id="contact">
+      <div class="contact-layout">
+        <div class="contact-content reveal">
+          <span class="section-index">05 / CONTACT</span>
+          <h2>Construisons<br /><span class="gradient-text">des idées ensemble.</span></h2>
+          <p>
+            Échange académique, collaboration sur un projet ou discussion
+            autour du génie civil : je serais heureux d'entrer en contact.
+          </p>
+          <a class="btn btn-primary"
+             href="https://www.linkedin.com/in/andy-ilboudo-1b8931442/"
+             target="_blank" rel="noopener noreferrer">
+            Me retrouver sur LinkedIn <span>↗</span>
+          </a>
+        </div>
+
+        <div class="contact-panel reveal">
+          <div class="contact-row">
+            <span class="contact-label">NOM</span>
+            <span>Andy ILBOUDO</span>
+          </div>
+          <div class="contact-row">
+            <span class="contact-label">FORMATION</span>
+            <span>Cycle préparatoire · Génie civil</span>
+          </div>
+          <div class="contact-row">
+            <span class="contact-label">RÉSEAU</span>
+            <a href="https://www.linkedin.com/in/andy-ilboudo-1b8931442/"
+               target="_blank" rel="noopener noreferrer">
+              LinkedIn ↗
+            </a>
+          </div>
+          <div class="contact-note">
+            <span class="status-dot"></span>
+            Ouvert aux échanges et aux opportunités d'apprentissage.
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#accueil" class="logo-mark">A<span>.</span>I</a>
+      <p>© <span id="currentYear">2026</span> Andy ILBOUDO. Construit avec curiosité.</p>
+      <a href="#accueil" class="back-top">RETOUR EN HAUT ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
